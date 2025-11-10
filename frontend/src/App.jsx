@@ -20,7 +20,9 @@ function App() {
         <Route path="/portal" element={<PortalPage />} />
       </Routes>
 
-      <Footer />
+      <div id="contact">
+        <Footer />
+      </div>
     </div>
   );
 }

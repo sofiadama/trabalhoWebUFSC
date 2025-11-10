@@ -6,10 +6,16 @@
   box-sizing: border-box;
 }
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+}
+
 /* Guia Global pra estilizar */
 :root {
   /* Cores Principais */
-  --cor-primaria-dourado: #ffd700;
+  --cor-primaria-dourado: #a9802dac;
   --cor-primaria-dourado-escuro: #d4af37;
   --cor-secundaria-preto: #181b25;
 
@@ -30,7 +36,7 @@
 /* Estilos padrão para o corpo */
 body {
   font-family: var(--fonte-corpo);
-  background-color: var(--cor-secundaria-preto); /* <--- ALTERADO AQUI */
+  background-color: var(--cor-fundo-claro);
   color: var(--cor-texto-escuro);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
